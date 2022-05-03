@@ -1,4 +1,5 @@
- #sides of a triangle
+# A py program of calculating area of triangle
+#sides of a triangle
 
 a = int(input("Enter the side a"))
 b = int(input("Enter the side b"))
