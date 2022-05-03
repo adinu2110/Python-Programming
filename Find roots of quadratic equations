@@ -1,0 +1,19 @@
+# A py programs of find roots/solutions of quadratic equations
+# import complex math module
+import cmath
+
+# coefficients of a quadratic equation
+a = int(input("Enter the coefficient of a: "))
+b = int(input("Enter the coefficient of b: "))
+c = int(input("Enter the coefficient of c: "))
+
+# calculate the discriminant
+d = (b**2) - (4*a*c)
+
+# find two solutions
+root1 = (-b-cmath.sqrt(d))/(2*a)
+root2 = (-b+cmath.sqrt(d))/(2*a)
+
+print('The roots are:')
+print(root1)
+print(root2)
